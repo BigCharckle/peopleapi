@@ -15,17 +15,17 @@ namespace PeopleApi.Repositories
 
             return JsonConvert.DeserializeObject<List<Person>>(json);
         }
-        public async Task AddPerson(Person person)
+        public async Task<Person> AddPerson(Person person)
         {
             var json = await System.IO.File.ReadAllTextAsync(_fileName);
             var list = JsonConvert.DeserializeObject<List<Person>>(json);
-            var maxId = list.Any() ? list.Max(x => (int)x.GetType().GetProperty("id").GetValue(x)) : 0;
+            var maxId = list.Any() ? list.Max(x => (int)x.Id) : 0;
             var newId = maxId + 1;
             person.Id = newId;
 
             list.Add(person);
             await System.IO.File.WriteAllTextAsync(_fileName, JsonConvert.SerializeObject(list));
-
+            return person;
         }
     }
 }

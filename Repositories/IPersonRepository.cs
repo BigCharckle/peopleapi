@@ -8,6 +8,6 @@ namespace PeopleApi.Repositories
     public interface IPersonRepository
     {
         public IEnumerable<Person> GetAll();
-        public Task AddPerson(Person person);
+        public Task<Person> AddPerson(Person person);
     }
 }

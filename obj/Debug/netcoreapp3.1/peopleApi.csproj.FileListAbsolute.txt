@@ -21,3 +21,4 @@ C:\Users\Du\source\repos\peopleApi\obj\Debug\netcoreapp3.1\PeopleApi.csproj.Copy
 C:\Users\Du\source\repos\peopleApi\obj\Debug\netcoreapp3.1\PeopleApi.dll
 C:\Users\Du\source\repos\peopleApi\obj\Debug\netcoreapp3.1\PeopleApi.pdb
 C:\Users\Du\source\repos\peopleApi\obj\Debug\netcoreapp3.1\PeopleApi.genruntimeconfig.cache
+C:\Users\Du\source\repos\peopleApi\obj\Debug\netcoreapp3.1\PeopleApi.csproj.AssemblyReference.cache

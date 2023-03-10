@@ -1,9 +1,7 @@
-﻿using System;
+﻿using System.Net.Http;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using PeopleApi.BusinessObjects;
 using PeopleApi.Repositories; 
 namespace PeopleApi.Controllers
@@ -26,10 +24,12 @@ namespace PeopleApi.Controllers
             return _personRepo.GetAll();
         }
 
-        [HttpPost]
-        public async Task PostAsync(Person person)
+        [HttpPost("add")]
+        public async Task AddAsync(Person person)
         {
-            await _personRepo.AddPerson(person);
+
+                await _personRepo.AddPerson(person);
+
         }
     }
 }
