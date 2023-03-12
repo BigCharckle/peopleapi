@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Du\\source\\repos\\peopleApi\\PeopleApi.csproj": {}
+    "C:\\Users\\Du\\source\\repos\\BigCharckle\\peopleapi\\PeopleApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Du\\source\\repos\\peopleApi\\PeopleApi.csproj": {
+    "C:\\Users\\Du\\source\\repos\\BigCharckle\\peopleapi\\PeopleApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Du\\source\\repos\\peopleApi\\PeopleApi.csproj",
+        "projectUniqueName": "C:\\Users\\Du\\source\\repos\\BigCharckle\\peopleapi\\PeopleApi.csproj",
         "projectName": "PeopleApi",
-        "projectPath": "C:\\Users\\Du\\source\\repos\\peopleApi\\PeopleApi.csproj",
+        "projectPath": "C:\\Users\\Du\\source\\repos\\BigCharckle\\peopleapi\\PeopleApi.csproj",
         "packagesPath": "C:\\Users\\Du\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Du\\source\\repos\\peopleApi\\obj\\",
+        "outputPath": "C:\\Users\\Du\\source\\repos\\BigCharckle\\peopleapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Du\\AppData\\Roaming\\NuGet\\NuGet.Config",

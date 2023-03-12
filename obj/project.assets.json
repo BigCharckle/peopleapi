@@ -56,11 +56,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Du\\source\\repos\\peopleApi\\peopleApi.csproj",
-      "projectName": "peopleApi",
-      "projectPath": "C:\\Users\\Du\\source\\repos\\peopleApi\\peopleApi.csproj",
+      "projectUniqueName": "C:\\Users\\Du\\source\\repos\\BigCharckle\\peopleapi\\PeopleApi.csproj",
+      "projectName": "PeopleApi",
+      "projectPath": "C:\\Users\\Du\\source\\repos\\BigCharckle\\peopleapi\\PeopleApi.csproj",
       "packagesPath": "C:\\Users\\Du\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Du\\source\\repos\\peopleApi\\obj\\",
+      "outputPath": "C:\\Users\\Du\\source\\repos\\BigCharckle\\peopleapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Du\\AppData\\Roaming\\NuGet\\NuGet.Config",

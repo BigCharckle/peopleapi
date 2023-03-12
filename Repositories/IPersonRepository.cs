@@ -7,7 +7,10 @@ namespace PeopleApi.Repositories
 {
     public interface IPersonRepository
     {
-        public IEnumerable<Person> GetAll();
+        public Task<IEnumerable<Person>> GetAll();
         public Task<Person> AddPerson(Person person);
+        public Task DeletePerson(int id);
+        public Task ToggleStatus(int id);
+
     }
 }

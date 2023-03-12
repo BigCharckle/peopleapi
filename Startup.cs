@@ -26,6 +26,7 @@ namespace PeopleApi
         {
             services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddControllers();
+            services.AddMemoryCache();
             //services.AddCors(options =>
             //{
             //    options.AddPolicy("CorsPolicy",
